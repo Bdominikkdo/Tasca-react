@@ -18,7 +18,7 @@ function aumentar() {
         <div className="titulo">
         <div className="mensaje"> 
         </div>
-            <h1>Contador</h1>
+            <h1>Contador singatumai</h1>
         </div>
         
         <div className="contador">
