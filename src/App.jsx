@@ -1,12 +1,12 @@
 import './App.css'
-import Circulo from './assets/componentes/Tasca1/Circulo.jsx'
-import Contador from './assets/componentes/Tasca1/Contador.jsx'
+import Exercici1 from './assets/componentes/Tasca1/Exercici1.jsx';
+import Exercici2 from './assets/componentes/Tasca1/Exercici2.jsx';
 
 function App() {
   return (
     <div>
-      <Contador/>
-      <Circulo/>
+      <Exercici1/>
+      <Exercici2 />
     </div> 
   )
 }

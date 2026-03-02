@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Circulo() {
+function Exercici2() {
   const [color, setColor] = useState("white");
 
   function Rojo() {
@@ -25,4 +25,4 @@ function Circulo() {
   );
 }
 
-export default Circulo;
+export default Exercici2;

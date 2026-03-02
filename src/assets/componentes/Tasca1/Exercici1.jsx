@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Contador() {
+function Exercici1() {
 const [numero, setNumero] = useState(0);
 
 function aumentar() {
@@ -36,4 +36,4 @@ function aumentar() {
     );
 }
 
-export default Contador;
+export default Exercici1;
