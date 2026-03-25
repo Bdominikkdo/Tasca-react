@@ -1,9 +1,9 @@
-function bryan() {
+function Informacion(){
   return (
     <div>
-      
+
     </div>
   )
 }
 
-export default bryan
+export default Informacion

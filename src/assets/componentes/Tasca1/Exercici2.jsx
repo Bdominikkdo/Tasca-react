@@ -17,6 +17,7 @@ function Exercici2() {
 
   return (
     <div>
+      <h2>Circulo singa tu mai</h2>
     <div className="circulo" style={{ backgroundColor: color }}></div>
       <button onClick={Rojo}>Rojo</button>
       <button onClick={Morado}>Morado</button>

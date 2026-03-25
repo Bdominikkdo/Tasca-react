@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import img1 from '../../Messi.jpg';
-import img2 from '../../thorfinn2.jpg';
-import img3 from '../../aizen 2.jpg';
-import img4 from '../../2Q.png';
+import { useState } from 'react';
+
+
+import img2 from '../../imagenes/thorfinn2.jpg';
+import img3 from '../../imagenes/aizen 2.jpg';
+import img4 from '../../imagenes/2Q.png';
 
 function Exercici1T2() {
-    const [imatges, setImatges] = useState([img1, img2, img3, img4]);
+    
+    const [imatges, setImatges] = useState([img2, img3, img4]);
 
     return (
         <div className="caja_blanca">
@@ -16,7 +18,7 @@ function Exercici1T2() {
             <div style={{ display: 'flex', gap: '10px', justifyContent: 'center' }}>
                 {imatges.map((imatge, index) => (
                     <div key={index} className="contador">
-                        <img src={imatge} width="150" />
+                        <img src={imatge} width="150" alt={`Galeria ${index + 1}`} />
                     </div>
                 ))}
             </div>
